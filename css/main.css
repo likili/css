@@ -1,4 +1,4 @@
-/*  спецификация элементов */
+/*  TODO: спецификация элементов */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -116,7 +116,7 @@ hr {
 }
 */
 
-/* Первый экран */
+/* TODO: Первый экран */
 header {
     color: white;
 }
@@ -207,7 +207,7 @@ header .container-fluid {
 .btn-scroll {
     padding-bottom: 12px;
 }
-/* Второй экран */
+/* TODO: Второй экран */
 .what-we {
     /*max-width: 250px;*/
     text-align: center;
@@ -290,7 +290,7 @@ header .container-fluid {
     color: white;
 }
 
-/* TODO: ЧЕТВЕРТЫЙ ЭКРАН */
+/* TODO: ТРЕТИЙ ЭКРАН */
 .car-row {
     padding-bottom: 70px;
 }
@@ -319,18 +319,19 @@ header .container-fluid {
     padding-top: 3px;
 }
 
-.fas {
+.fa-angle-left, .fa-angle-right {
     font-size: 40px;
 }
 
 
 
-/* TODO: ПЯТЫЙ ЭКРАН    */
+/* TODO: ЧЕТВЕРТЫЙ ЭКРАН    */
 .client-logo {
     /*max-width: 250px;*/
     text-align: center;
     /*margin: 50px;*/
-    max-width: 980px;
+    max-width: 800px;
+    padding-bottom: 64px;
 }
 
 .client-logo div {
@@ -346,11 +347,124 @@ header .container-fluid {
     height: 140px;
 }
 
+.btn-work {
+    padding-bottom: 60px;
+}
+
+/* TODO: ПЯТЫЙ ЭКРАН */
+
+.meet-team-img {
+    display: block;
+    clip-path: circle(50px at center 50px);
+    background-color: #fff;
+    /*background-clip: border-box;*/
+    -webkit-background-clip: content-box;
+    padding-bottom: 5px;
+
+}
+
+.img-my {
+    padding-bottom: 60px;
+}
+.img-my__block {
+    float: left;
+}
+
+.img-my hr {
+    border: 0; /* Убираем границу */
+    width: 2px;
+    height: 65px; /* Толщина линии */
+
+    padding: 0;
+    margin: 0 auto;
+}
+
+.img-my p {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.img-my__cont {
+
+    width: 84px;
+    height: 28px;
+    background: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.team-btn {
+    background: #3eba3e;
+    width: 90px;
+}
+
+.team-btn .btn-work {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+/* TODO: FOOTER*/
+
+.footer {
+    background: #333;
+    color: #ddd;
+}
+.footer hr {
+    border: 0; /* Убираем границу */
+    width: 42px;
+    height: 2px; /* Толщина линии */
+    padding: 0;
+    margin: 0 auto;
+    background: #ddd;
+}
+
+.footer__title {
+    font-size: 16px;
+    margin: 0;
+}
+.footer__text {
+    padding-top: 15px;
+    font-size: 12px;
+    text-indent: 1.5em;
+}
+
+.footer__block {
+    text-align: center;
+    max-width: 324px;
+    padding-top: 30px;
+}
+
+.footer-post__block {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.footer-post__title {
+    text-align: left;
+}
+
+.footer-post__img {
+    display: block;
+    width: 47px;
+    height: 47px;
+    /*border-radius: 100px;*/
+    /*border-color: red;*/
+    /*border-width: 2px;*/
+    margin-right: 9px;
+
+}
+.footer-post__title {
+    margin: 0 auto;
+    padding-top: 3px;
+}
 
 
 
-
-/* медиа запрос (адаптивность) */
+/* TODO: медиа запрос (адаптивность) */
 /*в диапозовне от нуля до 992px применяться данные классы*/
 @media screen and (max-width: 992px){
     .logo {
