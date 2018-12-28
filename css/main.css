@@ -553,9 +553,10 @@ header .container-fluid {
 
 
 .ftr-frm button {
-    border-radius: initial;
+    border-radius: 0;
     background: #2d9d2d;
     width: 253px;
+    border: 0;
 }
 
 .ftr-end {
