@@ -438,22 +438,20 @@ header .container-fluid {
     padding-top: 30px;
 }
 
-.footer-post__block {
-    font-size: 12px;
+.footer-post {
     margin-top: 20px;
 }
 
-.footer-post__title {
+.footer-post__block {
+    font-size: 12px;
     text-align: left;
 }
+
 
 .footer-post__img {
     display: block;
     width: 47px;
     height: 47px;
-    /*border-radius: 100px;*/
-    /*border-color: red;*/
-    /*border-width: 2px;*/
     margin-right: 9px;
 
 }
@@ -462,7 +460,107 @@ header .container-fluid {
     padding-top: 3px;
 }
 
+.footer-post__clrmg {
 
+    text-align: left;
+    height: 16px;
+    width: 80px;
+    /*background: #54d154;*/
+}
+.footer-post__clrmg button {
+    text-align: center;
+    background: #54d154;
+}
+
+.footer-post__ui {
+    text-align: center;
+    height: 16px;
+    width: 74px;
+}
+
+.footer-post__ui button {
+    text-align: center;
+    background: #ffba00;
+}
+
+.footer-post__ft {
+
+    text-align: center;
+    height: 16px;
+    width: 110px;
+}
+
+.footer-post__ft button {
+    background: #089dea;
+}
+
+.footer-post__bk {
+    height: 16px;
+    width: 50px;
+}
+
+.footer-post__bk button {
+    text-align: center;
+    background: #f34d04;
+}
+
+.footer-post .btn {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*background: #54d154;*/
+    color: white;
+    font-size: 12px;
+}
+
+/* Контакты */
+
+
+.ftr-cnt__title {
+    font-size: 16px;
+    margin: 0;
+}
+.ftr-cnt__text {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-indent: 1.5em;
+}
+
+.ftr-cnt__block {
+    text-align: center;
+    max-width: 324px;
+    padding-top: 30px;
+}
+
+.ftr-frm form {
+    border-radius: 200px;
+}
+
+.ftr-frm .form-group {
+    margin-bottom: 3px;
+    border: 0;
+}
+
+
+.ftr-frm input,.ftr-frm textarea {
+    background: #444444;
+    border: 0;
+    border-radius: unset;
+    resize: none;
+    width: 253px;
+}
+
+
+.ftr-frm button {
+    border-radius: initial;
+    background: #2d9d2d;
+    width: 253px;
+}
+
+.ftr-end {
+    height: 35px;
+}
 
 /* TODO: медиа запрос (адаптивность) */
 /*в диапозовне от нуля до 992px применяться данные классы*/
